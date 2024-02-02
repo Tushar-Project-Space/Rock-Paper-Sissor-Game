@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Sissor</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <p id="p">Rock-Paper-Sissor</p>
+    <div class="container">
+      <div class="choices">
+        <button class="btns" onclick="playgame('rock')">👊</button>
+        <button class="btns" onclick="playgame('paper')">🤚</button>
+        <button class="btns" onclick="playgame('sissor')">✌️</button>
+      </div>
+      <div class="player-moves">Player:</div>
+      <div class="computer-moves">Computer:</div>
+
+      <div class="result"></div>
+
+      <div class="scoreDisplay" id="playerScoreDisplay">Player Score : 0</div>
+      <div class="scoreDisplay" id="computerScoreDisplay">Computer Score : 0</div>
+
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

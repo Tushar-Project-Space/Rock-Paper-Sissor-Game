@@ -1,0 +1,66 @@
+body{
+    background-color: #aad9bbac;
+}
+
+.container {
+  background-color: rgba(244, 239, 239, 0.658);
+  height: 60vh;
+  width: 60vh;
+  border-radius: 10px;
+  margin: auto;
+}
+#p{
+    text-align: center;
+    background: linear-gradient(90deg, #6801cf,#dd0404c5);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btns {
+  font-size: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: dodgerblue;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.player-moves {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin: 2.3rem 0 1rem 0;
+  text-align: center;
+}
+.computer-moves {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+.result {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  margin: 1.75rem 0 1.75rem 0;
+}
+.scoreDisplay {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.greenText{
+    color: #31df24;
+}
+.redText{
+    color: #e43e19;
+}
